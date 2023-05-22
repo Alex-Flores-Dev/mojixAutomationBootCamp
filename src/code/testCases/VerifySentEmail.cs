@@ -43,7 +43,7 @@ namespace SeleniumTraining.src.code.test
             
             inboxEmail.messageSendPopUp.IsControlDisplayed();
             inboxEmail.changeToFrame("parent");
-            Thread.Sleep(50000);
+            Thread.Sleep(30000);
 
             inboxEmail.refreshPage.Click();
             inboxEmail.changeToFrame("ifinbox");
